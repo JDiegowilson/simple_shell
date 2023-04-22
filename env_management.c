@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * env_get_key - gets the value of an environment variable
+ * env_get_key - gets the environment variable value 
  * @key: the environment variable of interest
  * @data: struct of the program's data
  * Return: a pointer to the value of the variable or NULL if it doesn't exist
@@ -30,7 +30,7 @@ char *env_get_key(char *key, data_of_program *data)
 }
 
 /**
- * env_set_key - overwrite the value of the environment variable
+ * env_set_key - overwrite the environment variable value
  * or create it if does not exist.
  * @key: name of the variable to set
  * @value: new value
