@@ -2,9 +2,9 @@
 
 /**
  * expand_variables - expand variables
- * @data: a pointer to a struct of the program's data
+ * @data: the program's data pointer
  *
- * Return: nothing, but sets errno.
+ * Return: nothing, but sets error.
  */
 void expand_variables(data_of_program *data)
 {
@@ -51,10 +51,10 @@ void expand_variables(data_of_program *data)
 }
 
 /**
- * expand_alias - expans aliases
- * @data: a pointer to a struct of the program's data
+ * expand_alias - expand aliases
+ * @data: the program's data pointer
  *
- * Return: nothing, but sets errno.
+ * Return: nothing, but sets error.
  */
 void expand_alias(data_of_program *data)
 {
