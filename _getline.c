@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
-* _getline - reads a line from prompt.
-* @data: struct program's data
+* _getline - reads line from prompt.
+* @data: Construct data of program
 *
-* Return: reads counting bytes.
+* Return: interprete counting bytes.
 */
 int _getline(data_of_program *data)
 {
@@ -52,12 +52,12 @@ int _getline(data_of_program *data)
 
 
 /**
-* check_logic_ops - checks and seperate for && and || operators
-* @array_commands: arrays.
-* @i: index in the array_commands to be checked
-* @array_operators: array of the logical operators for each previous command
+* check_logic_ops - Reviews and seperate && and || operators
+* @array_commands: arrays
+* @i: index to be checked
+* @array_operators: array of operators for previous command
 *
-* Return: index of the last command in the array_commands.
+* Return: last command index in the array_commands.
 */
 int check_logic_ops(char *array_commands[], int i, char array_operators[])
 {
