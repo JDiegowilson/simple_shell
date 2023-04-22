@@ -39,7 +39,7 @@ void free_all_data(data_of_program *data)
 /**
  * free_array_of_pointers - frees each pointer of an array of pointers and the
  * array too
- * @array: array of pointers
+ * @array: pointers array
  * Return: nothing
  */
 void free_array_of_pointers(char **array)
