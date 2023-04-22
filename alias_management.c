@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * print_alias - add, remove or show aliases
- * @data: struct for the program's data
- * @alias: name of the alias to be printed
- * Return: zero if success, or others if its declared in the arguments
+ * print_alias - add, remove or show alias
+ * @data: struct program's data
+ * @alias: alias name to be printed
+ * Return: 0 if success, or others if declared in the arguments
  */
 int print_alias(data_of_program *data, char *alias)
 {
@@ -40,8 +40,8 @@ int print_alias(data_of_program *data, char *alias)
 /**
  * get_alias - add, remove or show aliases
  * @data: struct for the program's data
- * @name: name of the requested alias.
- * Return: zero if sucess, or other number if its declared in the arguments
+ * @name: requested alias name
+ * Return: zero if sucessful, or other number if its declared in the arguments
  */
 char *get_alias(data_of_program *data, char *name)
 {
