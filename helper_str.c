@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * str_length - returns the length of a string.
+ * str_length - returns the string length.
  * @string: pointer to string.
  * Return: length of string.
  */
